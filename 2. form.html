@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Day 2: Forms and Inputs</h1>
+    <form action="greet.txt">
+        <div>
+            <label for="sID">Student ID: </label>
+            <input type="number" name="sId" required>
+        </div>
+        <br>
+        <div>
+            Student Name: <input type="text" name="name" required>
+        </div>
+        <br>
+        <div>
+            DOB: <input type="date" name="dob" required>
+        </div>
+        <br>
+        <div>
+            <label for="province">Province: </label>
+            <select id="province" required>
+                <option value="" selected>Select Province</option>
+                <option value="1">Province 1</option>
+                <option value="2">Madhesh Pradesh</option>
+                <option value="3">Bagmati</option>
+                <option value="4">Gandaki</option>
+                <option value="5">Lumbini</option>
+                <option value="6">Karnali</option>
+                <option value="7">Sudurpaschim</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email Address: </label>
+            <input type="email" name="email" required placeholder="example@gmail.com">
+        </div>
+        <br>
+        <div>
+            Gender: <br>
+            <input type="radio" name="gender" required> Male
+            <input type="radio" name="gender" required> Female
+            <input type="radio" name="gender" required> Other
+        </div>
+        <br>
+        <div>
+            <label for="query">Any Queries?</label><br>
+            <textarea name="query"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" name="agree" required> Do you agree with school's rule?
+        </div>
+        <br>
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Clear</button>
+        </div>
+    </form>
+</body>
+</html>
