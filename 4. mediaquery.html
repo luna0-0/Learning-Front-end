@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: rgb(198, 178, 153);
+        }
+        @media only screen and (orientation: landscape) {
+            .boxes{
+                border: 4px solid rgb(7, 85, 50);
+                background-color: aliceblue;
+            }
+        }
+        @media only screen and (max-width: 300px){  
+            body{
+                background-color: rgb(221, 82, 82);
+            }
+
+            .boxes{
+                border: 3px solid rgb(34, 0, 255);
+                flex-direction: column;
+            }
+        }
+        .box{
+            display: flex;
+            background-color: aqua;
+            height: 30px;
+            width: 30px;
+            padding: 10px;
+            margin: 10px;
+        }
+        .boxes{
+            display: flex;
+            border: 2px solid;
+        }
+    </style>
+    <div class="boxes">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>
