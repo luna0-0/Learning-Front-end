@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(88, 87, 87);
+}
+#heading{
+    color: rgb(253, 206, 148);
+}
+#subheading{
+    color: rgb(230, 148, 163);
+}
+#para{
+    color: rgb(255, 252, 252)
+}
+.detail{
+    background-color: rgb(36, 36, 36);
+    color: aliceblue;
+}
+button{
+    background-color: rgb(78, 78, 255);
+    color: blanchedalmond;
+}
+#hide{
+    visibility: hidden;
+}
